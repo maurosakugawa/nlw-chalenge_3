@@ -23,8 +23,8 @@ server.get('/', (req, res) => {
 .get('/', pages.index)
 .get('/orphanage', pages.orphanage)
 .get('/orphanages', pages.orphanages)
-.get('/createOrphanage', pages.createOrphanage)
-.post('/save-orphanage', pages.saveOrphanage)
+.get('/create-orphanage', pages.createOrphanage)
+.post('/save-orphanage', pages.saveOrphanage);
 
 // ligar o servidor
 server.listen(5500);

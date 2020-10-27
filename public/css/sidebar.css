@@ -11,6 +11,9 @@ aside.sidebar {
     justify-content: space-between;
     align-items: center;
   }
+  #page-create-orphanage aside.sidebar{
+    height: 80%;
+  }
   
   aside.sidebar footer button {
     width: 48px;

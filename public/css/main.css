@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+#page-landing *{
+  margin: .3rem 0 0 0;
+}
+
 body {
   height: 100vh;
   color: white;

@@ -12,8 +12,8 @@ module.exports = {
 
         try {
             const db = await Database;
-            const results = await db.all(`SELECT * FROM orphanages WHERE id = "${id}"`)
-        //   const results = await db.all(`SELECT * FROM orphanages WHERE id = "${id}"`);
+            const results = await db.all(`SELECT * FROM orphanages WHERE id = "${id}"`
+            );
             const orphanage = results[0];
 
             orphanage.images = orphanage.images.split(',');
@@ -44,7 +44,7 @@ module.exports = {
         }
     },
     createOrphanage(req, res) {
-        return res.render('createOrphanage')
+        return res.render('create-orphanage')
     },
 
     async saveOrphanage(req, res) {
@@ -65,6 +65,7 @@ module.exports = {
                 about: fields.about,
                 whatsapp: fields.whatsapp,
                 images: fields.images.toString(),
+                instructions: fields.instructions,
                 openings_hours: fields.openings_hours,
                 open_on_weekends: fields.open_on_weekends,
             })
@@ -76,4 +77,4 @@ module.exports = {
             return res.send('Erro ao salvar orfanato!')
         }
     }
-}
+};

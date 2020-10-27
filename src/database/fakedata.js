@@ -7,6 +7,7 @@ module.exports = [
         lng: "-46.0030986",
         name: "Fake orphanage",
         description: "Presta assitência a crianças de 06 a 15 anos que se encontram em situação de risco e/ou vulnerabilidade social",
+        whatsapp:"999999999",
         images: [
             "https://images.unsplash.com/photo-1602622931974-78228760b7b1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9",
 
@@ -22,6 +23,7 @@ module.exports = [
         lng: "-46.0031986",
         name: "Fake orphanage2", 
         description: "Presta assitência a crianças de 06 a 15 anos que se encontram em situação de risco e/ou vulnerabilidade social",
+        whatsapp:"999999999",
         images: [
             "https://images.unsplash.com/photo-1602622931974-78228760b7b1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9",
 
